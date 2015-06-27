@@ -8,16 +8,10 @@ var sourcemaps = require('gulp-sourcemaps');
 var rimraf = require('rimraf');
 
 var paths = {
-          sass: ['./scss/**/*.scss'],
           javascript: [
             './www/**/*.js',
 			  '!./www/lib/**',
 			'!./www/dist/**'
-          ],
-          css: [
-            './www/**/*.css',
-            '!./www/css/ionic.app*.css',
-            '!./www/lib/**'
           ],
 		  bundledFile: 'bundled.js',
 		  bundledFileDest: './www/dist',		  		  
