@@ -1,2 +1,8 @@
 www/dist
 dist
+builds/
+**/builds/
+**/node_modules
+**/packages/
+**/bin
+**/obj
